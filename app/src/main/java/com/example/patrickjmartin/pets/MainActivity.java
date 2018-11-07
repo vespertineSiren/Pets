@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         TextView animalsTextView = new TextView(context);
         animalsTextView.setText("Current pets: \nAmmo - Cat \nBuddha - Cat\nLucky - Cat" +
-                "\n\nPast Pet: \nPeaches - Cat");
+                "\n\nPast Pet: \nPeaches - Cat" +
+                "\n\nAnimals Wanted: \nDjinn \nManticore");
         animalsTextView.setTextSize(24);
         listLayout.addView(animalsTextView);
 
